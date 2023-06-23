@@ -1,5 +1,7 @@
 # Hostel-Management-System
 
+Main website URL : http://127.0.0.1:5501/html
+
 1) Main website is in the html file in there code for hostel management system is there
 
 2) package-lock.json contains node js modules and files for the same
