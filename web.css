@@ -1,0 +1,125 @@
+body {
+    background-color: #F5F5F5;
+    font-family: Arial, sans-serif;
+}
+h1 {
+    font-size: 48px;
+    color: #333333;
+    text-align: center;
+    margin-top: 100px;
+    background-color: white;
+}
+.team {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.member {
+    border: 2px solid #333333;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 0 20px;
+    text-align: center;
+    width: 300px;
+    background-color: bisque;
+}
+.name {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    background-color: coral;
+}
+.role {
+    font-size: 18px;
+    color: #666666;
+    margin-bottom: 20px;
+
+}
+body
+{
+    background-image: url("images.jpeg");
+    background-size: cover;
+}
+.photo{
+    display: flex;
+    justify-self: center;
+    padding-top: 2cm;
+    padding-left: 40px;
+    padding-right: 30px;
+    margin-left: 440px;
+
+}
+.photo1{
+
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 300px;
+    
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #5a48df;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .form-container {
+    background-color: #1b15c9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    width: 600px;
+    margin-bottom: auto;
+  }
+  
+  h1, h2, h3 {
+    text-align: center;
+  }
+  
+  .options {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+  
+  .option {
+    background-color: #3ce013;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    width: 200px;
+    text-align: center;
+  }
+  
+  .option h3 {
+    margin-bottom: 10px;
+    image-rendering: auto;
+  }
+  
+  .option img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  .option img:hover {
+    transform: scale(1.1);
+  }
